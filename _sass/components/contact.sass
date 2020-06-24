@@ -1,0 +1,64 @@
+#contact
+  width: 100%
+  height: 100%
+  margin: 0 auto
+
+#contact form
+  input, textarea
+    box-sizing: border-box
+    width: 100%
+    height: 40px
+    padding: 5px 10px
+    font-size: 12px
+    color: #333
+    letter-spacing: 1px
+    background: #e4e4e4
+    border: 2px solid #FFF
+    margin-bottom: 25px
+    -webkit-transition: all 0.1s ease-in-out
+    -moz-transition: all 0.1s ease-in-out
+    -ms-transition: all 0.1s ease-in-out
+    -o-transition: all 0.1s ease-in-out
+    transition: all 0.1s ease-in-out
+
+  input:focus
+    border: 2px solid #3e66a2
+    color: #222
+
+  textarea
+    &:focus
+      border: 2px solid #3e66a2
+      color: #222
+
+    height: 150px
+
+  .submit
+    width: 100%
+    height: 40px
+    text-transform: uppercase
+    border: 2px solid $delta
+    padding: 10px 20px
+    border-radius: 5px
+    text-decoration: none
+    transition: all 0.3s ease
+    text-align: center
+    text-transform: uppercase
+    background: none
+
+    &:hover
+      background: $delta
+      color: white
+      cursor: pointer
+
+    &:disabled
+      border: 2px solid #adadad
+      background-color: #adadad
+      cursor: not-allowed
+
+  .required
+    color: #b43838
+
+#response
+    text-align: center
+    margin-bottom: 10px
+    font-weight: 600

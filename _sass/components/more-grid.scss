@@ -1,0 +1,54 @@
+.more-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 30px;
+    -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 50px;
+    grid-auto-flow: row dense;
+    margin-top: 30px;
+
+    .item {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        box-sizing: border-box;
+        color: #fff;
+        -ms-grid-column: auto;
+        grid-column-start: auto;
+        -ms-grid-row: auto;
+        grid-row-start: auto;
+        color: #fff;
+        background-size: cover;
+        background-position: center;
+        -webkit-transition: -webkit-transform 0.3s ease-in-out;
+        transition: -webkit-transform 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+        cursor: pointer;
+        counter-increment: item-counter;
+
+        a {
+            border: 2px solid $delta;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        a:hover {
+            background: $delta;
+            color: white;
+            transition: all 0.3s ease;
+        }
+    }
+}
