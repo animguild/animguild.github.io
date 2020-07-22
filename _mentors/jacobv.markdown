@@ -1,15 +1,14 @@
 ---
 title: "Jacob Van"
 subtitle: 3D Character Modeling
-layout: post
+layout: mentor
 date: 2014-01-23 22:10
 tag:
+ - Freelance
  - 3D Character Modeling
  - Texturing
 image: ../assets/images/mentors/jacobv.jpg
 imageSize: medium
-headerImage: false
-description: ""
 category: mentors
 externalLink: false
 weight: 3

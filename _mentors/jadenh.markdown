@@ -1,14 +1,12 @@
 ---
 title: "Jaden Holladay"
 subtitle: Software Engineer
-layout: post
+layout: mentor
 tag:
  - C#
  - Unity
 image: ../assets/images/mentors/jadenh.jpg
 imageSize: medium
-headerImage: false
-description: "something"
 category: mentors
 weight: 3
 featured: true

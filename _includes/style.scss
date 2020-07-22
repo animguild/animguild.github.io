@@ -5,13 +5,17 @@
 @import "base/general";
 @import "base/helpers";
 
-@import "pages/home-blog-projects";
+@import "pages/home";
 @import "pages/page";
 @import "pages/post";
 @import "pages/tags";
 @import "pages/mentors";
+@import "pages/mentor";
+@import "pages/course";
 
 @import "components/author";
+@import "components/block-grid";
+@import "components/circular-grid";
 @import "components/disqus";
 @import "components/footer";
 @import "components/header";

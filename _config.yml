@@ -5,7 +5,7 @@ bio: Join us and level up
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/logo.png
+picture: assets/images/logo.svg
 
 url: https://animguild.github.io/
 
@@ -82,9 +82,10 @@ contact_url: https://jadenholladay.herokuapp.com/email
 # SEO
 title: AnimGuild
 description: Join us and level up
-logo: ../assets/images/logo.png
+logo: ../assets/images/logo.svg
 
 collections:
   mentors:
     output: true
-
+  courses:
+    output: true

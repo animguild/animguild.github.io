@@ -3,15 +3,45 @@ layout: home-page
 title: Home
 ---
 {% assign sorted_mentors = site.mentors | sort:"weight" %}
+{% assign sorted_courses = site.courses | sort:"weight" %}
+
 <section class="list">
-    <div class="mentor-grid">
+    <div class="title">Mentors</div>
+    <div class="circular-grid">
         {% for mentor in sorted_mentors %} {% if mentor.featured %}
-        <a href="{% if mentor.externalLink %}{{ mentor.externalLink }}{% else %}{{ site.url }}{{ mentor.url }}{% endif %}" class="item item--medium" style="background: url('{{ mentor.image }}'); background-size: cover; background-position: center;">
-            <div class="item__details">
-                {{ mentor.title }}
-                <div class="item__tags">
-                    {% if site.show-tags %} {% for tag in mentor.tags %}
-                    <span class="item__tag" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</span> {% endfor %} {% endif %}
+        <a href="{% if mentor.externalLink %}{{ mentor.externalLink }}{% else %}{{ site.url }}{{ mentor.url }}{% endif %}" class="item">
+            <div class="item-image-container">
+                <img class="item-image" src="{{ mentor.image }}" alt="mentor image"/>
+            </div>
+            <div class="item-details">
+                <span class="item-title">{{ mentor.title }}</span>
+                <div class="item-tags">
+                    {% if site.show-tags %}
+                    {% for tag in mentor.tags %}
+                    <span class="item-tag tag-{{ tag | downcase }}" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</span>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </a>
+        {% endif %} {% endfor %}
+    </div>
+</section>
+
+
+<section class="list">
+    <div class="title">Courses</div>
+    <div class="block-grid">
+        {% for course in sorted_courses %} {% if course.featured %}
+        <a href="{% if course.externalLink %}{{ course.externalLink }}{% else %}{{ site.url }}{{ course.url }}{% endif %}" class="item item--{{ course.imageSize }}" style="background: url('{{ course.image }}'); background-size: cover; background-position: center;">
+            <div class="item-details">
+                {{ course.title }}
+                <div class="item-tags">
+                    {% if site.show-tags %}
+                    {% for tag in course.tags %}
+                    <span class="item-tag" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</span>
+                    {% endfor %}
+                    {% endif %}
                 </div>
             </div>
         </a>

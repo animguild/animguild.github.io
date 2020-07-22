@@ -1,0 +1,30 @@
+---
+layout: page
+---
+<div class="mentor">
+    {% if page.image %}
+    <img class="title-image" src="{{ site.url }}/{{ page.image }}" alt="{{ page.title }}">
+    {% endif %}
+
+    <div class="title">{{ page.title }}</div>
+    <div class="subtitle">{{ page.subtitle }}</div>
+
+    {% if site.show-tags %}
+    <div class="post-tags">
+        {% for tag in page.tags %}
+        <a class="item" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {{content}}
+
+    {% if site.related %}
+    {% include related.html %}
+    {% endif %}
+
+    {% if site.disqus.categories contains page.category %}
+    {% include disqus.html %}
+    {% endif %}
+
+</div>

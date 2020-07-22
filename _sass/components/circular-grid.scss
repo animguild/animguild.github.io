@@ -1,0 +1,106 @@
+.circular-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 30px;
+    -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+    grid-auto-flow: row dense;
+
+    .item {
+        padding: 15px;
+        overflow: hidden;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: center;
+        box-sizing: border-box;
+        color: #fff;
+        -ms-grid-column: auto;
+        grid-column-start: auto;
+        -ms-grid-row: auto;
+        grid-row-start: auto;
+        color: #fff;
+        -webkit-transition: -webkit-transform 0.3s ease-in-out;
+        transition: -webkit-transform 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+        cursor: pointer;
+        counter-increment: item-counter;
+        text-decoration: none;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .item:hover {
+        -webkit-transform: scale(1.02);
+        transform: scale(1.02);
+    }
+
+    .item:hover:after {
+        opacity: 0;
+    }
+
+    @media screen and (min-width: 768px) {
+        .item--full {
+            grid-column: 1/-1;
+            -ms-grid-row-span: 2;
+            grid-row-end: span 2;
+        }
+    }
+
+    .item-image-container {
+        max-height: 100%;
+        display: flex;
+        flex: 1 1 auto;
+    }
+
+    .item-image {
+        object-fit: contain;
+        width: 100%;
+        height: 200px;
+    }
+
+    .item-details {
+        color: $epsilon;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .item-title {
+        width: 100%;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .item-tags {
+    }
+
+    .item-tag {
+        padding: 2px 8px;
+        border-radius: 3px;
+        font-size: 1.1rem;
+        background: #ededed;
+        color: #666;
+        letter-spacing: 1px;
+        margin: 3px 1px;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 300;
+    }
+
+    .tag-freelance {
+        background: $alpha;
+        color: $epsilon;
+    }
+}
