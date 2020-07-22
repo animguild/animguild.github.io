@@ -10,6 +10,7 @@
       <change afterPath="$PROJECT_DIR$/../_sass/pages/course.sass" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../courses.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_includes/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_includes/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_includes/nav.html" afterDir="false" />
@@ -93,7 +94,7 @@
       <workItem from="1592962134054" duration="275000" />
       <workItem from="1592963016114" duration="5286000" />
       <workItem from="1593051558940" duration="13000" />
-      <workItem from="1595370466374" duration="10341000" />
+      <workItem from="1595370466374" duration="10534000" />
     </task>
     <servers />
   </component>
@@ -124,9 +125,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="773" y="275" key="scopes/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1595371245960" />
-    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup" timestamp="1595388793991">
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup" timestamp="1595389054977">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1595388793991" />
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1595389054977" />
   </component>
 </project>
