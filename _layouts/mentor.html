@@ -19,10 +19,6 @@ layout: page
 
     {{content}}
 
-    {% if site.related %}
-    {% include related.html %}
-    {% endif %}
-
     {% if site.disqus.categories contains page.category %}
     {% include disqus.html %}
     {% endif %}

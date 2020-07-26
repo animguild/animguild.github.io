@@ -56,9 +56,6 @@ read-time: true
 # do you want to show the "tags" inside the posts?
 show-tags: true
 
-# related posts inside a post?
-related: true
-
 # Display links for next and previous posts for the specified categories
 post-advance-links: [blog]
 
@@ -82,6 +79,10 @@ contact_url: https://jadenholladay.herokuapp.com/email
 title: AnimGuild
 description: Join us and level up
 logo: ../assets/images/logo.svg
+
+# Stripe
+#stripe: pk_live_51H7uX2AllhMShDXbYJtldIITWMSYXlp3lLTBudnpDnccwmMlUXSqeAfFzJ9O9xR28RDswW5BQ6uu3Yhue1rzMXw400SM7cEXIz
+stripe: pk_test_51H7uX2AllhMShDXb5kUBLaGJU5uXhYkprQTKD8xUojM2XQWu9WXUpCcupuMfhJYritDCtjFCNMavT4caZfd7fCV500g85nh1wj
 
 collections:
   mentors:

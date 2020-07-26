@@ -2,38 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffb4cdde-63a8-4cff-8137-872a48299548" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../_courses/intro_to_lighting.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_courses/intro_to_substance_painter.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_layouts/course.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_layouts/mentor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_sass/components/block-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_sass/pages/course.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../courses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_courses/test_course.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_mentors/salmanb.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkout_cancel.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkout_success.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FAQ.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_config-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../_config-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_includes/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_includes/icons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_includes/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_includes/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_includes/social-links.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_includes/social-links.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_includes/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../_includes/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_courses/intro_to_lighting.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../_courses/intro_to_lighting.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_includes/related.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_includes/related-courses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_layouts/course.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_layouts/course.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_mentors/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/pages/mentor.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_layouts/mentor.html" beforeDir="false" afterPath="$PROJECT_DIR$/../_layouts/mentor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_mentors/jacobv.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../_mentors/jacobv.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_mentors/jadenh.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../_mentors/jadenh.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_sass/base/general.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/base/general.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_sass/base/variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/base/variables.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_sass/components/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/components/footer.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_sass/components/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/components/header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_sass/components/nav.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/components/nav.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_sass/pages/home-blog-projects.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/pages/home.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_sass/pages/mentors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/pages/mentors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_sass/pages/page.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/pages/page.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_sass/pages/post.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/pages/post.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../easteregg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mentors.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mentors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_mentors/jadenh.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../_mentors/michelleh.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_sass/components/circular-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/components/circular-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_sass/pages/course.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/pages/course.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_sass/pages/mentor.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../_sass/pages/mentor.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../about.md" beforeDir="false" afterPath="$PROJECT_DIR$/../about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/images/mentors/jadenh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../contact.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/../courses.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mentors.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mentors.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,15 +60,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../_sass/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../_mentors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jaden\projects\jacob\jacob.github.io.git\_mentors" />
+      <recent name="C:\Users\jaden\projects\jacob\jacob.github.io.git" />
+      <recent name="C:\Users\jaden\projects\jacob\jacob.github.io.git\_courses" />
       <recent name="C:\Users\jaden\projects\jacob\jacob.github.io.git\_sass\pages" />
       <recent name="C:\Users\jaden\projects\jacob\jacob.github.io.git\_layouts" />
-      <recent name="C:\Users\jaden\projects\jacob\jacob.github.io.git\_courses" />
-      <recent name="C:\Users\jaden\projects\jacob\jacob.github.io.git\_sass\components" />
-      <recent name="C:\Users\jaden\projects\jacob\jacob.github.io.git" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jaden\projects\jacob\jacob.github.io.git\assets\images" />
@@ -97,7 +87,7 @@
       <workItem from="1592962134054" duration="275000" />
       <workItem from="1592963016114" duration="5286000" />
       <workItem from="1593051558940" duration="13000" />
-      <workItem from="1595370466374" duration="11423000" />
+      <workItem from="1595370466374" duration="20273000" />
     </task>
     <servers />
   </component>
@@ -120,17 +110,17 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1037" y="594" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1595384837950" />
-    <state x="879" y="340" width="923" height="722" key="find.popup" timestamp="1595390534880">
+    <state x="879" y="340" width="923" height="722" key="find.popup" timestamp="1595790101214">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="879" y="340" width="923" height="722" key="find.popup/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1595390534880" />
+    <state x="879" y="340" width="923" height="722" key="find.popup/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1595790101214" />
     <state x="773" y="275" key="scopes" timestamp="1595371245960">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="773" y="275" key="scopes/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1595371245960" />
-    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup" timestamp="1595389154767">
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup" timestamp="1595789032359">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1595389154767" />
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1595789032359" />
   </component>
 </project>

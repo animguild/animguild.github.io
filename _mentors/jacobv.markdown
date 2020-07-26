@@ -11,7 +11,7 @@ image: ../assets/images/mentors/jacobv.jpg
 imageSize: medium
 category: mentors
 externalLink: false
-weight: 3
+weight: 1
 featured: true
 ---
 ![Screenshot](../../assets/images/jacobv/embrypose1.jpg)

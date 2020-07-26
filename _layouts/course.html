@@ -19,12 +19,45 @@ layout: page
 
     {{content}}
 
-    {% if site.related %}
-    {% include related.html %}
+    {% if page.product %}
+    <div class="checkout-container">
+        <button id="checkout" class="checkout" role="link" type="button">Purchase {{page.title}}</button>
+    </div>
     {% endif %}
+
+    <div id="error-message"></div>
+
+    {% include related-courses.html %}
 
     {% if site.disqus.categories contains page.category %}
     {% include disqus.html %}
     {% endif %}
+
+    {% raw %}
+    <script type="application/javascript">
+        (function() {
+            {% endraw %}
+            var stripe = Stripe("{{site.stripe}}");
+            {% raw %}
+            var checkoutButton = document.getElementById('checkout');
+            checkoutButton.addEventListener('click', function () {
+                stripe.redirectToCheckout({
+                    {% endraw %}
+                    lineItems: [{price: "{{page.product}}", quantity: 1}],
+                    {% raw %}
+                    mode: 'payment',
+                    successUrl: window.location.origin + '/checkout/success',
+                    cancelUrl: window.location.href
+                })
+                .then(function (result) {
+                    if (result.error) {
+                        var displayError = document.getElementById('error-message');
+                        displayError.textContent = result.error.message;
+                    }
+                });
+            });
+        })();
+    </script>
+    {% endraw %}
 
 </div>

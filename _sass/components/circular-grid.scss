@@ -62,11 +62,12 @@
         max-height: 100%;
         display: flex;
         flex: 1 1 auto;
+        justify-content: center;
     }
 
     .item-image {
-        object-fit: contain;
-        width: 100%;
+        object-fit: cover;
+        width: 200px;
         height: 200px;
     }
 
