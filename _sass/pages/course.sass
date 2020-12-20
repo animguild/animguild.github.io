@@ -1,81 +1,97 @@
 .course
+  > .heading
+    border-bottom: 1px solid
+
     > .title
-        text-align: center
-        font-size: 1.5em
-        font-weight: bold
-        color: black
-        margin-bottom: 1rem
+      font-weight: bold
+      color: black
+      margin-bottom: 1rem
 
     > .subtitle
-        text-align: center
-        margin-bottom: 1rem
-        font-weight: 300
+      margin-bottom: 1rem
+      font-weight: 300
+      margin-top: 0
 
     > .date,
     > .post-tags
-        color: $beta
-        font-weight: 300
-        font-size: 1.4rem
-        text-transform: uppercase
-        text-align: center
-        display: block
-        margin-bottom: 6rem
-        letter-spacing: 1px
-        -webkit-font-smoothing: antialiased
-        text-rendering: optimizeLegibility
+      color: $beta
+      font-weight: 300
+      font-size: 1.4rem
+      text-transform: uppercase
+      display: block
+      margin-bottom: 2rem
+      letter-spacing: 1px
+      -webkit-font-smoothing: antialiased
+      text-rendering: optimizeLegibility
 
-    > .date
-        margin-bottom: 2rem
 
     > .post-tags > .item
-        padding: 2px 8px
-        border-radius: 3px
-        font-size: 1.1rem
-        background: $gama
-        color: $epsilon
-        letter-spacing: 1px
-        margin: 3px 1px
-        text-decoration: none
-        display: inline-block
+      padding: 2px 8px
+      border-radius: 3px
+      font-size: 1.1rem
+      background: $gama
+      color: $epsilon
+      letter-spacing: 1px
+      margin: 3px 1px
+      text-decoration: none
+      display: inline-block
 
-    // general style
-    > h2,
-    > h3,
-    > h4
-        margin-top: 40px
+  // general style
+  > h2,
+  > h3,
+  > h4
+    a
+      text-decoration: none
 
-        a
-            text-decoration: none
+  > .title-image
+    display: block
+    margin: 0 auto 24px auto
+    box-shadow: 0 0 5px #292F36
 
-    > .title-image
-        display: block
-        margin: 0 auto 24px auto
-        box-shadow: 1px 1px 5px #292F36
+  > .blog-navigation
+    font-size: 1.4rem
+    display: block
+    width: auto
+    overflow: hidden
 
-    > .blog-navigation
-        font-size: 1.4rem
-        display: block
-        width: auto
-        overflow: hidden
-        a
-            display: block
-            width: 50%
-            float: left
-            margin: 1em 0
-        .next
-            text-align: right
+    a
+      display: block
+      width: 50%
+      float: left
+      margin: 1em 0
 
-    > .checkout-container
-        height: 50px
-        display: flex
-        align-items: center
-        justify-content: flex-end
-        >.checkout
-            background-color: $beta
-            color: #FFF
-            padding: 8px 12px
-            border: 0
-            border-radius: 4px
-            font-size: 1em
-            float: right
-            cursor: pointer
+    .next
+      text-align: right
+
+  .checkout-container
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-top: 3em
+    position: fixed
+    bottom: 0
+    left: 0
+    right: 0
+    padding: 20px
+    background: #ffffff
+    box-shadow: 0 -1px 5px #dedede
+    z-index: 100
+
+    > .content
+      max-width: 810px
+      width: 100%
+      display: flex
+      justify-content: flex-end
+
+      > .price
+        margin-right: 1em
+
+      > .checkout
+        background-color: $beta
+        color: #FFF
+        padding: 18px 36px
+        border: 0
+        border-radius: 4px
+        font-size: 1em
+        float: right
+        cursor: pointer

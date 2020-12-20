@@ -2,62 +2,67 @@
 layout: page
 ---
 <div class="course">
-    {% if page.image %}
-    <img class="title-image" src="{{ site.url }}/{{ page.image }}" alt="{{ page.title }}">
-    {% endif %}
+  {% if page.image %}
+  <img class="title-image" src="{{ site.url }}/{{ page.image }}" alt="{{ page.title }}">
+  {% endif %}
 
-    <div class="title">{{ page.title }}</div>
-    <div class="subtitle">{{ page.subtitle }}</div>
+  <div class="heading">
+    <h1 class="title">{{ page.title }}</h1>
+    <h3 class="subtitle">{{ page.subtitle }}</h3>
 
     {% if site.show-tags %}
     <div class="post-tags">
-        {% for tag in page.tags %}
-        <a class="item" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
-        {% endfor %}
+      {% for tag in page.tags %}
+      <a class="item" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
+      {% endfor %}
     </div>
     {% endif %}
+  </div>
 
-    {{content}}
+  {{content}}
 
-    {% if page.product %}
-    <div class="checkout-container">
-        <button id="checkout" class="checkout" role="link" type="button">Purchase {{page.title}}</button>
+  {% if page.product %}
+  <div class="checkout-container">
+    <div class="content">
+      <h3 class="price">${{page.price}}</h3>
+      <button class="checkout" role="link" type="button">Purchase {{page.title}}</button>
     </div>
-    {% endif %}
+  </div>
+  {% endif %}
 
-    <div id="error-message"></div>
+  <div id="error-message"></div>
 
-    {% include related-courses.html %}
+  {% include related-courses.html %}
 
-    {% if site.disqus.categories contains page.category %}
-    {% include disqus.html %}
-    {% endif %}
+  {% if site.disqus.categories contains page.category %}
+  {% include disqus.html %}
+  {% endif %}
 
-    {% raw %}
-    <script type="application/javascript">
-        (function() {
-            {% endraw %}
-            var stripe = Stripe("{{site.stripe}}");
-            {% raw %}
-            var checkoutButton = document.getElementById('checkout');
-            checkoutButton.addEventListener('click', function () {
-                stripe.redirectToCheckout({
-                    {% endraw %}
-                    lineItems: [{price: "{{page.product}}", quantity: 1}],
-                    {% raw %}
-                    mode: 'payment',
-                    successUrl: window.location.origin + '/checkout/success',
-                    cancelUrl: window.location.href
-                })
-                .then(function (result) {
-                    if (result.error) {
-                        var displayError = document.getElementById('error-message');
-                        displayError.textContent = result.error.message;
-                    }
-                });
+  {% raw %}
+  <script type="application/javascript">
+      (function() {
+          {% endraw %}
+          var stripe = Stripe("{{site.stripe}}");
+          var priceId = "{% if jekyll.environment == 'production' %}{{page.product}}{% else %}{{page.product_dev}}{% endif %}";
+          {% raw %}
+          document.querySelectorAll('.checkout').forEach(item => {
+              item.addEventListener('click', function () {
+                  stripe.redirectToCheckout({
+                  lineItems: [{price: priceId, quantity: 1}],
+                  mode: 'payment',
+                      successUrl: window.location.origin + '/checkout/success',
+                      cancelUrl: window.location.href
+              })
+              .then(function (result) {
+
+                  if (result.error) {
+                    var displayError = document.getElementById('error-message');
+                    displayError.textContent = result.error.message;
+                  }
+              });
             });
-        })();
-    </script>
-    {% endraw %}
-
+          })
+      })();
+  </script>
+  {% endraw %}
 </div>

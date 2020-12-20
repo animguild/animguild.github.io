@@ -1,26 +1,33 @@
 <nav class="cl-effect-1 {% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
-    <ul class="list">
-        {% if page.title != "Home" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/">Home</a>
-            </li>
-        {% endif %}
+  {% if page.title != "Home" %}
+  <a class="logo" href="{{ site.url }}/">
+    <img class="logo" alt="{{ site.name }}"
+         src="{% if site.external-image %}{{ site.logo }}{% else %}{{ site.url }}/{{ site.logo }}{% endif %}"/>
+  </a>
+  {% endif %}
 
-        <li class="item">
-            <a class="link" href="{{ site.url }}/mentors">Mentors</a>
-        </li>
+  <ul class="list">
+    {% if page.title != "Home" %}
+    <li class="item">
+      <a class="link" href="{{ site.url }}/">Home</a>
+    </li>
+    {% endif %}
 
-        <li class="item">
-            <a class="link" href="{{ site.url }}/courses">Courses</a>
-        </li>
+    <li class="item">
+      <a class="link" href="{{ site.url }}/mentors">Mentors</a>
+    </li>
 
-        <li class="item">
-            <a class="link" href="{{ site.url }}/about">About</a>
-        </li>
+    <li class="item">
+      <a class="link" href="{{ site.url }}/courses">Courses</a>
+    </li>
 
-        <li class="item">
-            <a class="link" href="{{ site.url }}/contact">Contact</a>
-        </li>
+    <li class="item">
+      <a class="link" href="{{ site.url }}/about">About</a>
+    </li>
 
-    </ul>
+    <li class="item">
+      <a class="link" href="{{ site.url }}/contact">Contact</a>
+    </li>
+
+  </ul>
 </nav>
