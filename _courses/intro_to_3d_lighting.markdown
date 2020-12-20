@@ -30,13 +30,13 @@ tag:
 
 ## Class Outline
 
-### Week 1:
+### Week 1: Setting Up Scene
 
-### Week 2:
+### Week 2: Lighting Techniques and Developing an Eye (Part 1)
 
-### Week 3:
+### Week 3: Lighting Techniques and Developing an Eye (Part 2)
 
-### Week 4:
+### Week 4: Render Layers and Basic Compositing
 
 
 ## What you need
