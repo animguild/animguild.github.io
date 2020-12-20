@@ -19,6 +19,9 @@ title: Courses
                             {% endfor %}
                         {% endif %}
                     </div>
+                    <div class="item-start-date">
+                      Starts {{ course.startDate }}
+                    </div>
                 </div>
             </a>
         {% endfor %}

@@ -11,6 +11,7 @@ featured: true
 product: price_1I0DKZAllhMShDXb2OVus1qS
 product_dev: price_1I0DJxAllhMShDXbvnRRBPyW
 price: 350
+startDate: January 4th
 tag:
  - Blender
  - Beginners

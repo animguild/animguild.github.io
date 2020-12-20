@@ -99,6 +99,19 @@
         color: #828282;
     }
 
+    .item-start-date {
+      color: $alpha;
+      width: fit-content;
+      float: right;
+      display: block;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      letter-spacing: 1px;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
     .item-tags {
         display: inline;
         padding-left: 10px;
