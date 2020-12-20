@@ -1,11 +1,11 @@
 ---
-title: "Michelle Hironaka"
+name: Michelle Hironaka
 subtitle: Lighting and Compositing
 layout: mentor
 tag:
  - Lighting
  - Compositing
-image: ../assets/images/mentors/michelleh.jpg
+image: /assets/mentors/michelleh.jpg
 imageSize: medium
 category: mentors
 weight: 3

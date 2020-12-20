@@ -5,7 +5,7 @@
     > .title
       font-weight: bold
       color: black
-      margin-bottom: 1rem
+      margin-bottom: 8px
 
     > .subtitle
       margin-bottom: 1rem
@@ -22,7 +22,7 @@
       letter-spacing: 1px
       -webkit-font-smoothing: antialiased
       text-rendering: optimizeLegibility
-      margin-bottom: 2rem
+      margin-bottom: 1rem
       color: $alpha
 
     > .date,
@@ -47,6 +47,25 @@
       margin: 3px 1px
       text-decoration: none
       display: inline-block
+
+    > .mentors
+      display: grid
+      grid-auto-flow: column
+      grid-gap: 24px
+      width: fit-content
+      margin-bottom: 12px
+      > .mentor
+        text-decoration: none
+        display: flex
+        align-items: center
+        > img
+          width: 32px
+          height: 32px
+          object-fit: cover
+          border-radius: 100%
+        > .mentor-name
+
+          margin: 0 0 0 12px
 
   // general style
   > h2,

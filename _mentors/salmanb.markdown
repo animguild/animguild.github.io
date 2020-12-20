@@ -1,5 +1,5 @@
 ---
-title: "Salmanal Balushi"
+name: Salmanal Balushi
 subtitle: CG Artist
 layout: mentor
 tag:
@@ -8,7 +8,7 @@ tag:
  - Match Moving
  - Compositing
  - Fluid Simulations
-image: ../assets/images/mentors/salmanb.jpg
+image: ../assets/mentors/salmanb.jpg
 imageSize: medium
 category: mentors
 weight: 3

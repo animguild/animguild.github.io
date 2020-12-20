@@ -8,8 +8,22 @@ layout: page
 
   <div class="heading">
     <h1 class="title">{{ page.title }}</h1>
-    <span class="start-date">Starts {{ page.startDate }}</span>
     <h3 class="subtitle">{{ page.subtitle }}</h3>
+
+    <span class="start-date">Starts {{ page.startDate }}</span>
+
+    <div class="mentors">
+      {% for mentor in site.mentors %}
+        {% for courseMentor in page.mentors %}
+          {% if mentor.url contains courseMentor %}
+            <a class="mentor" href="{{ mentor.url }}">
+              <img class="mentor-image" src="{{ mentor.image }}" alt="mentor image"/>
+              <p class="mentor-name">{{ mentor.name }}</p>
+            </a>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </div>
 
     {% if site.show-tags %}
     <div class="post-tags">

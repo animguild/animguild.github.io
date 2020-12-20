@@ -14,7 +14,7 @@ title: Mentors
                     <img class="item-image" src="{{ mentor.image }}" alt="mentor image"/>
                 </div>
                 <div class="item-details">
-                    <span class="item-title">{{ mentor.title }}</span>
+                    <span class="item-title">{{ mentor.name }}</span>
                     <div class="item-tags">
                         {% if site.show-tags %}
                             {% for tag in mentor.tags %}
