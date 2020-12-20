@@ -1,0 +1,37 @@
+# config.yml
+
+backend:
+  name: github
+  repo: animguild/animguild.github.io
+  branch: dev-content
+media_folder: 'assets/uploads'
+collections:
+  - name: 'courses'
+    label: 'Courses'
+    folder: '_courses/'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'course' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Image Size', name: 'imageSize', widget: 'select', options: ['large', 'medium', 'full'], default: ['medium'] }
+      - { label: 'Featured', name: 'featured', widget: 'boolean' }
+      - { label: 'Stripe Price Id', name: 'price_id', widget: 'string' }
+      - { label: 'Stripe Price Id (Test)', name: 'price_id_test', widget: 'string' }
+      - { label: 'Price', name: 'price', widget: 'number', min: 0, value_type: 'float' }
+      - { label: 'Start Date', name: 'start_date', widget: 'date', date_format: 'DD.MM.YYYY' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - {
+        label: 'Mentors',
+        name: 'mentors',
+        widget: 'relation',
+        collection: 'mentors',
+        multiple: true,
+        required: false,
+        display_fields: ['display_name'],
+        search_fields: ['display_name'],
+        value_field: 'name',
+      }

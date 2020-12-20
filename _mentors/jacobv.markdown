@@ -1,5 +1,5 @@
 ---
-mentor: Jacob Van
+display_name: Jacob Van
 subtitle: 3D Character Modeling
 layout: mentor
 date: 2014-01-23 22:10

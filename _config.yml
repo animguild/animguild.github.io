@@ -1,6 +1,7 @@
 # main text of home
 name: AnimGuild
 bio: Join us and level up
+netlify_config: config.yml
 
 # if it's an external image, update below for true
 # better with square images

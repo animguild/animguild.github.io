@@ -3,3 +3,4 @@
 url: http://localhost:4000
 contact_url: http://localhost:3000/email
 stripe: pk_test_51H7uX2AllhMShDXb5kUBLaGJU5uXhYkprQTKD8xUojM2XQWu9WXUpCcupuMfhJYritDCtjFCNMavT4caZfd7fCV500g85nh1wj
+netlify_config: config_dev.yml

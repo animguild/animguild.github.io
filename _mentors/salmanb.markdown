@@ -1,5 +1,5 @@
 ---
-name: Salmanal Balushi
+display_name: Salmanal Balushi
 subtitle: CG Artist
 layout: mentor
 tag:
