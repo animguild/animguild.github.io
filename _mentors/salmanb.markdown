@@ -8,7 +8,7 @@ tag:
  - Match Moving
  - Compositing
  - Fluid Simulations
-image: ../assets/mentors/salmanb.jpg
+image: /assets/mentors/salmanb.jpg
 imageSize: medium
 category: mentors
 weight: 3

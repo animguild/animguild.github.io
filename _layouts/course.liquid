@@ -1,9 +1,11 @@
 ---
 layout: page
 ---
+{% assign mentors = site.mentors | where_exp: "mentor", "page.mentors contains mentor.title" %}
+
 <div class="course">
   {% if page.image %}
-  <img class="title-image" src="{{ site.url }}/{{ page.image }}" alt="{{ page.title }}">
+    <img class="title-image" src="{{ site.url }}/{{ page.image }}" alt="{{ page.title }}">
   {% endif %}
 
   <div class="heading">
@@ -12,72 +14,70 @@ layout: page
 
     <span class="start-date">Starts {{ page.startDate }}</span>
 
-    <div class="mentors">
-      {% for mentor in site.mentors %}
-        {% for courseMentor in page.mentors %}
-          {% if mentor.url contains courseMentor %}
-            <a class="mentor" href="{{ mentor.url }}">
-              <img class="mentor-image" src="{{ mentor.image }}" alt="mentor image"/>
-              <p class="mentor-name">{{ mentor.name }}</p>
-            </a>
-          {% endif %}
+    {% if mentors.size > 0 %}
+      <div class="mentors">
+        {% for mentor in mentors %}
+          <a class="mentor" href="{{ mentor.url }}">
+            <img class="mentor-image" src="{{ mentor.image }}" alt="mentor image"/>
+            <p class="mentor-name">{{ mentor.name }}</p>
+          </a>
         {% endfor %}
-      {% endfor %}
-    </div>
+      </div>
+    {% endif %}
 
     {% if site.show-tags %}
-    <div class="post-tags">
-      {% for tag in page.tags %}
-      <a class="item" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
-      {% endfor %}
-    </div>
+      <div class="post-tags">
+        {% for tag in page.tags %}
+          <a class="item" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
+        {% endfor %}
+      </div>
     {% endif %}
   </div>
 
-  {{content}}
+  {{ content }}
 
   {% if page.product %}
-  <div class="checkout-container">
-    <div class="content">
-      <h3 class="price">${{page.price}}</h3>
-      <button class="checkout" role="link" type="button">Purchase {{page.title}}</button>
+    <div class="checkout-container">
+      <div class="content">
+        <h3 class="price">${{ page.price }}</h3>
+        <button class="checkout" role="link" type="button">Purchase {{ page.title }}</button>
+      </div>
     </div>
-  </div>
   {% endif %}
 
   <div id="error-message"></div>
 
-  {% include related-courses.html %}
+  {% include related-courses.liquid %}
 
   {% if site.disqus.categories contains page.category %}
-  {% include disqus.html %}
+    {% include disqus.html %}
   {% endif %}
 
   {% raw %}
   <script type="application/javascript">
-      (function() {
-          {% endraw %}
-          var stripe = Stripe("{{site.stripe}}");
-          var priceId = "{% if jekyll.environment == 'production' %}{{page.product}}{% else %}{{page.product_dev}}{% endif %}";
-          {% raw %}
-          document.querySelectorAll('.checkout').forEach(item => {
-              item.addEventListener('click', function () {
-                  stripe.redirectToCheckout({
-                  lineItems: [{price: priceId, quantity: 1}],
-                  mode: 'payment',
-                      successUrl: window.location.origin + '/checkout/success',
-                      cancelUrl: window.location.href
-              })
-              .then(function (result) {
-
-                  if (result.error) {
-                    var displayError = document.getElementById('error-message');
-                    displayError.textContent = result.error.message;
-                  }
-              });
-            });
+    (function () {
+      {% endraw %}
+      var stripe = Stripe("{{ site.stripe }}");
+      var priceId = "{% if jekyll.environment == 'production' %}{{ page.product }}{% else %}{{ page.product_dev }}{% endif %}";
+      {% raw %}
+      document.querySelectorAll('.checkout').forEach(item => {
+        item.addEventListener('click', function () {
+          stripe.redirectToCheckout({
+            lineItems: [{price: priceId, quantity: 1}],
+            mode: 'payment',
+            successUrl: window.location.origin + '/checkout/success',
+            cancelUrl: window.location.href
           })
-      })();
+          .then(function (result) {
+
+            if (result.error) {
+              var displayError = document.getElementById('error-message');
+              displayError.textContent = result.error.message;
+            }
+          });
+        });
+      })
+    })();
   </script>
   {% endraw %}
 </div>

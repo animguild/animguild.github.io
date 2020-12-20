@@ -13,7 +13,7 @@ product_dev: price_1I0DJxAllhMShDXbvnRRBPyW
 price: 350
 startDate: January 4th
 mentors:
-  - michelleh
+  - Michelleh
 tag:
  - Blender
  - Beginners

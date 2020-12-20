@@ -1,6 +1,8 @@
 ---
 layout: page
 ---
+{% assign courses = site.courses | where_exp: "course", "course.mentors contains page.title" %}
+
 <div class="mentor">
   {% if page.image %}
     <img class="title-image" src="{{ site.url }}/{{ page.image }}" alt="{{ page.title }}">
@@ -17,21 +19,18 @@ layout: page
     </div>
   {% endif %}
 
-  <hr/>
-
-  <h3>Courses</h3>
-  <div class="courses">
-    {% for course in site.courses %}
-      {% for mentor in course.mentors %}
-        {% if page.url contains mentor %}
-          <a class="course" href="{{ course.url }}">
-            <img class="course-image" src="{{ course.image }}" alt="course image"/>
-            <p class="course-name">{{ course.title }}</p>
-          </a>
-        {% endif %}
+  {% if courses.size > 0 %}
+    <hr/>
+    <h3>Courses</h3>
+    <div class="courses">
+      {% for course in courses %}
+        <a class="course" href="{{ course.url }}">
+          <img class="course-image" src="{{ course.image }}" alt="course image"/>
+          <p class="course-name">{{ course.title }}</p>
+        </a>
       {% endfor %}
-    {% endfor %}
-  </div>
+    </div>
+  {% endif %}
 
   <hr/>
 
