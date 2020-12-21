@@ -1,22 +1,18 @@
 ---
-title: Intro to 3D Lighting
-subtitle: Learn the basic artistic and technical steps of lighting in 3D! We’ll be using Blender to light a character and interior set.
 layout: course
-image: /assets/courses/intro_to_3d_lighting/legoScene_001.jpg
+title: Intro to 3D Lighting
+subtitle: Learn the basic artistic and technical steps of lighting in 3D! We’ll
+  be using Blender to light a character and interior set.
+image: /assets/uploads/legoscene_001.jpg
 imageSize: medium
-headerImage: false
-externalLink: false
-weight: 3
 featured: true
-product: price_1I0DKZAllhMShDXb2OVus1qS
-product_dev: price_1I0DJxAllhMShDXbvnRRBPyW
+price_id: price_1I0DKZAllhMShDXb2OVus1qS
+price_id_test: price_1I0DJxAllhMShDXbvnRRBPyW
 price: 350
-startDate: January 4th
-mentors:
-  - Michelleh
-tag:
- - Blender
- - Beginners
+start_date: 2021-01-04T22:48:51.256Z
+tags:
+  - Blender
+  - Beginner
 ---
 <div style="padding:56.25% 0 0 0;position:relative;margin-top: 24px;">
     <iframe src="https://player.vimeo.com/video/492955040?title=0&byline=0&portrait=0&loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
