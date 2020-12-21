@@ -5,6 +5,9 @@ backend:
   repo: animguild/animguild.github.io
   branch: dev-content
 media_folder: 'assets/uploads'
+display_url: http://localhost:4000
+site_url: http://localhost:4000
+logo_url: /assets/images/logo.svg
 collections:
   - name: 'courses'
     label: 'Courses'
