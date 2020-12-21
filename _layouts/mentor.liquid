@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-{% assign courses = site.courses | where_exp: "course", "course.mentors contains page.title" %}
+{% assign courses = site.courses | where_exp: "course", "course.mentors contains page.display_name" %}
 
 <div class="mentor">
   {% if page.image %}
