@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/_layouts/mentor.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/mentor.liquid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sass/components/block-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/components/block-grid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sass/components/circular-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/components/circular-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/config_dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/config_dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses.md" beforeDir="false" afterPath="$PROJECT_DIR$/courses.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -100,7 +101,7 @@
       <workItem from="1608322168686" duration="713000" />
       <workItem from="1608414252931" duration="11654000" />
       <workItem from="1608494934203" duration="169000" />
-      <workItem from="1608495118270" duration="13403000" />
+      <workItem from="1608495118270" duration="13636000" />
     </task>
     <servers />
   </component>
