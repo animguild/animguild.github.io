@@ -3,7 +3,9 @@
 backend:
   name: github
   repo: animguild/animguild.github.io
+  site_domain: brave-raman-9b8f1d.netlify.com
   branch: master
+
 media_folder: 'assets/uploads'
 display_url: https://animguild.com
 site_url: https://animguild.com
