@@ -2,14 +2,14 @@
 layout: page
 title: Mentors
 ---
-{% assign sorted_mentors = site.mentors | sort:"weight" %}
+{% assign sorted_mentors = site.mentors | sort: "weight" | reverse %}
 
 <div class="title">Mentors</div>
 
 <section class="list">
     <div class="circular-grid">
         {% for mentor in sorted_mentors %}
-            <a href="{% if mentor.externalLink %}{{ mentor.externalLink }}{% else %}{{ site.url }}{{ mentor.url }}{% endif %}" class="item">
+            <a href="{{ site.url }}{{ mentor.url }}" class="item">
                 <div class="item-image-container">
                     <img class="item-image" src="{{ mentor.image }}" alt="mentor image"/>
                 </div>

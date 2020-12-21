@@ -8,7 +8,7 @@ netlify_config: config.yml
 external-image: false
 picture: assets/images/logo.svg
 
-url: https://animguild.github.io/
+url: https://animguild.com
 
 permalink: /:title/
 

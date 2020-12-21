@@ -50,6 +50,7 @@ collections:
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Image Size', name: 'imageSize', widget: 'select', options: [ 'large', 'medium', 'full' ], default: 'medium' }
       - { label: 'Featured', name: 'featured', widget: 'boolean', default: false }
+      - { label: 'Weight', name: 'weight', widget: 'number', default: 3, hint: 'Higher numbers show towards the top' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'pages'

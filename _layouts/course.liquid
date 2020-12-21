@@ -12,7 +12,9 @@ layout: page
     <h1 class="title">{{ page.title }}</h1>
     <h3 class="subtitle">{{ page.subtitle }}</h3>
 
-    <span class="start-date">Starts {{ page.startDate }}</span>
+    {% if page.start_date %}
+      <span class="start-date">Starts {{ page.start_date | date: '%B %d, %Y' }}</span>
+    {% endif %}
 
     {% if mentors.size > 0 %}
       <div class="mentors">

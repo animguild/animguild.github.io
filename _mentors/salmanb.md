@@ -2,7 +2,7 @@
 display_name: Salmanal Balushi
 subtitle: CG Artist
 layout: mentor
-tag:
+tags:
  - Motion Graphics
  - Character Animation
  - Match Moving
@@ -10,7 +10,6 @@ tag:
  - Fluid Simulations
 image: /assets/mentors/salmanb.jpg
 imageSize: medium
-category: mentors
 weight: 3
 featured: true
 ---
