@@ -1,4 +1,5 @@
 ---
+price_id_test: price_1I0DJxAllhMShDXbvnRRBPyW
 layout: course
 image: /assets/uploads/skull_render_01.jpg
 imageSize: medium
@@ -7,7 +8,6 @@ subtitle: Get familiar with Zbrush! We will be using Zbrush to sculpt a cartoony
   skull while learning the basics of the software.
 featured: true
 price_id: price_1I1HlOAllhMShDXbBUgN1NwW
-price_id_test: price_1I0DJxAllhMShDXbvnRRBPyW
 price: 350
 start_date: 2021-01-04T20:47:54.923Z
 tags:
@@ -15,6 +15,10 @@ tags:
   - Zbrush
 mentors:
   - Ryan Bird
+prerequisite_courses:
+  - Intro to After Effects
+next_courses:
+  - Intro to 3D Lighting
 ---
 ## Overview
 
