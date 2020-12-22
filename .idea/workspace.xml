@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ffb4cdde-63a8-4cff-8137-872a48299548" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_courses/intro-to-zbrush.md" beforeDir="false" afterPath="$PROJECT_DIR$/_courses/intro-to-zbrush.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/course.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/course.liquid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sass/pages/course.sass" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/pages/course.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/config.yml" afterDir="false" />
@@ -97,7 +96,7 @@
       <workItem from="1608494934203" duration="169000" />
       <workItem from="1608495118270" duration="15700000" />
       <workItem from="1608516231233" duration="288000" />
-      <workItem from="1608670748148" duration="4704000" />
+      <workItem from="1608670748148" duration="4851000" />
     </task>
     <servers />
   </component>
