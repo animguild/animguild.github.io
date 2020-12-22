@@ -97,7 +97,7 @@
       <workItem from="1608494934203" duration="169000" />
       <workItem from="1608495118270" duration="15700000" />
       <workItem from="1608516231233" duration="288000" />
-      <workItem from="1608670748148" duration="2267000" />
+      <workItem from="1608670748148" duration="4704000" />
     </task>
     <servers />
   </component>
@@ -129,6 +129,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="656" y="257" key="SettingsEditor/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1608499386419" />
+    <state x="786" y="221" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608675144306">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="786" y="221" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1608675144306" />
     <state x="1049" y="592" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608503168332">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -141,9 +145,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="879" y="340" width="923" height="752" key="find.popup/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1608671225968" />
-    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup" timestamp="1608673929159">
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup" timestamp="1608674882774">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1608673929159" />
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1608674882774" />
   </component>
 </project>

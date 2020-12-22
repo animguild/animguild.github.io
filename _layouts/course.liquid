@@ -14,9 +14,15 @@ layout: page
     <h1 class="title">{{ page.title }}</h1>
     <h3 class="subtitle">{{ page.subtitle }}</h3>
 
-    {% if page.start_date %}
-      <span class="start-date">Starts {{ page.start_date | date: '%B %d, %Y' }}</span>
-    {% endif %}
+    <div class="time">
+      {% if page.start_date %}
+        <span class="start-date">Starts {{ page.start_date | date: '%B %d, %Y' }}</span>
+      {% endif %}
+      <span class="separator">-</span>
+      {% if page.class_time %}
+        <span class="class-time">{{ page.class_time }}</span>
+      {% endif %}
+    </div>
 
     {% if mentors.size > 0 %}
       <div class="mentors">
