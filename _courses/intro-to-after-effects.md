@@ -6,7 +6,7 @@ title: Intro to After Effects
 subtitle: Get familiar with After Effects! We will be using AE to do a simple
   character and logo animation.
 featured: true
-price_id: price_1I0DKZAllhMShDXb2OVus1qS
+price_id: price_1I1GeIAllhMShDXbBDVpXWm5
 price_id_test: price_1I0DJxAllhMShDXbvnRRBPyW
 price: 350
 start_date: 2021-01-04T18:36:00.330Z
