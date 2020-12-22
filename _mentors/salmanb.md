@@ -1,17 +1,17 @@
 ---
-display_name: Salmanal Balushi
-subtitle: CG Artist
 layout: mentor
-tags:
- - Motion Graphics
- - Character Animation
- - Match Moving
- - Compositing
- - Fluid Simulations
+display_name: Salman al Balushi
+subtitle: CG Artist
 image: /assets/mentors/salmanb.jpg
 imageSize: medium
-weight: 3
 featured: true
+weight: 3
+tags:
+  - Motion Graphics
+  - Character Animation
+  - Match Moving
+  - Compositing
+  - Fluid Simulations
 ---
 With 13 years of experience in the industry, Salman is a well-known CG Artist in Oman, he has worked in various CG roles, Motion Graphics, Character Animation, Match Moving, Compositing, Fluid Simulations and worked on various Omani TV series, movies, and TV commercials. He is currently working as an Animation supervisor and is the team leader in the Multimedia Department at the Sultan Qaboos University in Muscat, Oman.
 
