@@ -34,9 +34,9 @@ collections:
         collection: 'mentors',
         multiple: true,
         required: false,
-        display_fields: [ 'display_name' ],
-        search_fields: [ 'display_name' ],
-        value_field: 'display_name',
+        display_fields: [ 'title' ],
+        search_fields: [ 'title' ],
+        value_field: 'title',
       }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
@@ -48,7 +48,7 @@ collections:
       preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'mentor' }
-      - { label: 'Name', name: 'display_name', widget: 'string' }
+      - { label: 'Name', name: 'title', widget: 'string' }
       - { label: 'Subtitle', name: 'subtitle', widget: 'string', required: false }
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Image Size', name: 'imageSize', widget: 'select', options: [ 'large', 'medium', 'full' ], default: 'medium' }

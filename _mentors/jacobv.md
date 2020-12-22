@@ -1,5 +1,5 @@
 ---
-display_name: Jacob Van
+title: Jacob Van
 subtitle: 3D Character Modeling
 layout: mentor
 tags:

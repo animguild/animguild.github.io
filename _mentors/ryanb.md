@@ -1,6 +1,6 @@
 ---
 layout: mentor
-display_name: Ryan Bird
+title: Ryan Bird
 subtitle: 3D Artist
 image: /assets/uploads/facebookryan.jpg
 imageSize: medium

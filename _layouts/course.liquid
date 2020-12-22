@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-{% assign mentors = site.mentors | where_exp: "mentor", "page.mentors contains mentor.display_name" %}
+{% assign mentors = site.mentors | where_exp: "mentor", "page.mentors contains mentor.title" %}
 
 <div class="course">
   {% if page.image %}
@@ -21,7 +21,7 @@ layout: page
         {% for mentor in mentors %}
           <a class="mentor" href="{{ mentor.url }}">
             <img class="mentor-image" src="{{ mentor.image }}" alt="mentor image"/>
-            <p class="mentor-name">{{ mentor.display_name }}</p>
+            <p class="mentor-name">{{ mentor.title }}</p>
           </a>
         {% endfor %}
       </div>

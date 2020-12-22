@@ -1,5 +1,5 @@
 ---
-display_name: Michelle Hironaka
+title: Michelle Hironaka
 subtitle: Lighting and Compositing
 layout: mentor
 tags:

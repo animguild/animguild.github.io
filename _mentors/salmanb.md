@@ -1,6 +1,6 @@
 ---
 layout: mentor
-display_name: Salman al Balushi
+title: Salman al Balushi
 subtitle: CG Artist
 image: /assets/mentors/salmanb.jpg
 imageSize: medium
