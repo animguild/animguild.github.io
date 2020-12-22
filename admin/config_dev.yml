@@ -23,7 +23,6 @@ collections:
       - { label: 'Subtitle', name: 'subtitle', widget: 'text', required: false }
       - { label: 'Featured', name: 'featured', widget: 'boolean', default: false }
       - { label: 'Stripe Price Id', name: 'price_id', widget: 'string', hint: 'i.e. price_1I0DJxAllhMShDXbvnRRBPyW' }
-      - { label: 'Stripe Price Id (Test)', name: 'price_id_test', widget: 'string', hint: 'i.e. price_1I0DJxAllhMShDXbvnRRBPyW' }
       - { label: 'Price', name: 'price', widget: 'number', min: 0, value_type: 'float' }
       - { label: 'Start Date', name: 'start_date', widget: 'datetime', date_format: 'DD.MM.YYYY' }
       - { label: 'Tags', name: 'tags', widget: 'list', required: false, hint: 'comma separated tags' }
@@ -32,6 +31,28 @@ collections:
         name: 'mentors',
         widget: 'relation',
         collection: 'mentors',
+        multiple: true,
+        required: false,
+        display_fields: [ 'title' ],
+        search_fields: [ 'title' ],
+        value_field: 'title',
+      }
+      - {
+        label: 'Recommended Prerequisite Courses',
+        name: 'prerequisite_courses',
+        widget: 'relation',
+        collection: 'courses',
+        multiple: true,
+        required: false,
+        display_fields: [ 'title' ],
+        search_fields: [ 'title' ],
+        value_field: 'title',
+      }
+      - {
+        label: 'Recommended Next Courses',
+        name: 'next_courses',
+        widget: 'relation',
+        collection: 'courses',
         multiple: true,
         required: false,
         display_fields: [ 'title' ],

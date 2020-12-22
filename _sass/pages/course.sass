@@ -77,7 +77,6 @@
   > .title-image
     display: block
     margin: 0 auto 24px auto
-    box-shadow: 0 0 5px #292F36
 
   > .blog-navigation
     font-size: 1.4rem
@@ -126,3 +125,26 @@
         font-size: 1em
         float: right
         cursor: pointer
+  > .prerequisite-courses, .next-courses
+    display: grid
+    grid-auto-flow: column
+    grid-gap: 24px
+    margin-bottom: 12px
+    width: fit-content
+
+    > .course
+      padding: 12px
+      border: 1px solid #c1c1c1
+      border-radius: 8px
+      text-decoration: none
+      display: flex
+      align-items: center
+
+      > img
+        width: 32px
+        height: 32px
+        object-fit: cover
+        border-radius: 100%
+
+      > .course-name
+        margin: 0 0 0 12px

@@ -15,10 +15,6 @@ tags:
   - Zbrush
 mentors:
   - Ryan Bird
-prerequisite_courses:
-  - Intro to After Effects
-next_courses:
-  - Intro to 3D Lighting
 ---
 ## Overview
 
