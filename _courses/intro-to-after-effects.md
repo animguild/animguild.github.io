@@ -14,7 +14,7 @@ tags:
   - AfterEffects
   - Beginner
 mentors:
-  - Salmanal Balushi
+  - Salman al Balushi
 ---
 ## Overview
 
