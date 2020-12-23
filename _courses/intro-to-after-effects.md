@@ -1,4 +1,5 @@
 ---
+price_id_test: price_1I0DJxAllhMShDXbvnRRBPyW
 layout: course
 image: /assets/uploads/char_nerd_qtine.png
 imageSize: medium
@@ -7,9 +8,9 @@ subtitle: Get familiar with After Effects! We will be using AE to do a simple
   character and logo animation.
 featured: true
 price_id: price_1I1GeIAllhMShDXbBDVpXWm5
-price_id_test: price_1I0DJxAllhMShDXbvnRRBPyW
 price: 350
 start_date: 2021-01-04T18:36:00.330Z
+class_time: Friday @ 10:00 AM PST
 tags:
   - AfterEffects
   - Beginner
