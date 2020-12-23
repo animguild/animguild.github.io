@@ -1,15 +1,16 @@
 ---
+price_id_test: price_1I0DJxAllhMShDXbvnRRBPyW
 layout: course
+image: /assets/uploads/legoscene_001.jpg
+imageSize: medium
 title: Intro to 3D Lighting
 subtitle: Learn the basic artistic and technical steps of lighting in 3D! We’ll
   be using Blender to light a character and interior set.
-image: /assets/uploads/legoscene_001.jpg
-imageSize: medium
 featured: true
 price_id: price_1I0DKZAllhMShDXb2OVus1qS
-price_id_test: price_1I0DJxAllhMShDXbvnRRBPyW
 price: 350
 start_date: 2021-01-04T22:48:51.256Z
+class_time: Monday / Wednesday @ 6:00 PM PST
 tags:
   - Blender
   - Beginner
