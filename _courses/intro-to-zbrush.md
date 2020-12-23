@@ -39,3 +39,4 @@ mentors:
 
 * High Speed Internet
 * [](https://www.blender.org/)Pixologic Zbrush
+* Digital Drawing Tablet (XP-Pen, Wacom, Huion)
