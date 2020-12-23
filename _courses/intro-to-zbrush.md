@@ -1,7 +1,7 @@
 ---
 price_id_test: price_1I0DJxAllhMShDXbvnRRBPyW
 layout: course
-image: /assets/uploads/skull_render_03.jpg
+image: /assets/uploads/skull_render_02.jpg
 imageSize: medium
 title: Intro to Zbrush
 subtitle: Get familiar with Zbrush! We will be using Zbrush to sculpt a cartoony
