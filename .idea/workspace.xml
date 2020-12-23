@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ffb4cdde-63a8-4cff-8137-872a48299548" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/course.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/course.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/pages/course.sass" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/pages/course.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/config_dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/config_dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,19 +59,6 @@
       <recent name="C:\Users\jaden\projects\jacob\jacob.github.io.git\_courses" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -96,7 +80,8 @@
       <workItem from="1608494934203" duration="169000" />
       <workItem from="1608495118270" duration="15700000" />
       <workItem from="1608516231233" duration="288000" />
-      <workItem from="1608670748148" duration="4851000" />
+      <workItem from="1608670748148" duration="5051000" />
+      <workItem from="1608682322355" duration="13000" />
     </task>
     <servers />
   </component>
