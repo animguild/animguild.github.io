@@ -15,7 +15,7 @@ tags:
   - Beginner
   - Zbrush
 mentors:
-  - Ryan Bird
+  - Jacob Van
 ---
 ## Overview
 
