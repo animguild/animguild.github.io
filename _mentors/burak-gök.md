@@ -5,7 +5,7 @@ subtitle: ""
 image: /assets/uploads/burakgok_profile.jpg
 imageSize: medium
 featured: true
-weight: 2
+weight: 4
 tags:
   - Blender
   - 3D Artist
