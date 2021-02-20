@@ -9,7 +9,7 @@ subtitle: Learn the basic artistic and technical steps of lighting in 3D! We’l
 featured: true
 price_id: price_1I0DKZAllhMShDXb2OVus1qS
 price: 350
-start_date: 2021-01-04T22:48:51.256Z
+start_date: 2021-04-01T21:48:51.256Z
 class_time: Monday / Wednesday @ 6:00 PM PST
 tags:
   - Blender
