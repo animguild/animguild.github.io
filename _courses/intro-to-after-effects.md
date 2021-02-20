@@ -9,7 +9,7 @@ subtitle: Get familiar with After Effects! We will be using AE to do a simple
 featured: true
 price_id: price_1I1GeIAllhMShDXbBDVpXWm5
 price: 350
-start_date: 2021-01-04T18:36:00.330Z
+start_date: 2021-03-01T18:36:00.330Z
 class_time: Friday @ 10:00 AM PST
 tags:
   - AfterEffects
