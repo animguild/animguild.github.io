@@ -9,7 +9,7 @@ subtitle: Get familiar with Zbrush! We will be using Zbrush to sculpt a cartoony
 featured: true
 price_id: price_1I1HlOAllhMShDXbBUgN1NwW
 price: 350
-start_date: 2021-01-18T20:47:54.923Z
+start_date: 2021-04-01T19:47:54.923Z
 class_time: "-"
 tags:
   - Beginner
