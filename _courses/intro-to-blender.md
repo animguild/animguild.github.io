@@ -1,6 +1,6 @@
 ---
 layout: course
-image: /assets/uploads/spherechar_001.png
+image: /assets/uploads/social-render.png
 imageSize: medium
 title: Intro to Blender
 subtitle: Learn the basics of Blender, while creating a cute little scene!
